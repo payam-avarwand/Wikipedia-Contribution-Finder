@@ -1,12 +1,12 @@
 #define MyAppName "Wikipedia Contribution Finder"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Avarwand"
-#define MyAppURL "https://github.com/payam-avarwand/Wikipedia-Contribution-Finder/releases/tag/Wikipedia-Contribution-Finder"
+#define MyAppURL "https://github.com/payam-avarwand/Wikipedia-Contribution-Finder/releases/tag/Contribution_Finder"
 #define MyAppExeName "0.exe"
-#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Wikipedia Contribution Finder\WCF_128x128-32.ico"
+#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Wikipedia Contribution Finder\installer\WCF_128x128-32.ico"
 #define MyVbsLauncher "Wikipedia Contribution Finder_Launcher.vbs"
 #define MyAppIconName "WCF_128x128-32.ico"
-#define MyAppFileVersion "1.0.3.22"
+#define MyAppFileVersion "1.1.2.77"
 
 [Setup]
 AppId={{Wikipedia_Contribution_Finder.com.yahoo@Avar_Payam}
@@ -107,5 +107,9 @@ begin
     end;
   end;
 end;
+
+
+
+
 
 
