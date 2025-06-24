@@ -1,7 +1,7 @@
 # Wikipedia Contribution Finder
-This is a user-friendly tool designed to extract and list article titles edited by a specified Wikipedia user,
-supporting both English and Persian Wikipedia.
-It filters out non-article edits and sorts contributions chronologically, saving results to a text file for
+A user-friendly tool designed to extract and list all Article titles edited by a specified Wikipedia user in
+a specific Time period, supporting both English and Persian Wikipedia.
+It filters out non-article edits and sorts contributions chronologically (oldest to newest), saving results to a text file for
 easy reference.
 Users can customize the date range for analysis, ensuring focused and relevant output.
 With an intuitive interface, it simplifies tracking a user's editing history while excluding maintenance
@@ -34,7 +34,6 @@ contribution analysis with precision and ease.
 It will be generated as a clean text file containing:
 - Only article titles (no maintenance pages or user pages)
 - One title per line
-- Sorted chronologically (oldest to newest)
 - Excludes duplicates and similar non-article edits
 
 
@@ -82,11 +81,10 @@ Contributions are welcome! Please open an issue or submit a pull request for:
 
 ## License
 
-© 2025 Avarwand
 This software is released as freeware.<br>
 Feel free to use, share, and distribute it for personal or commercial use.<br>
-_Developed by Payam Avarwand,	06.06.2025_
-
+_Developed by Payam Avarwand,	06.06.2025_ <br>
+© 2025 Avarwand
 
 ## Contact
 
