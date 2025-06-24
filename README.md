@@ -22,73 +22,72 @@ contribution analysis with precision and ease.
 
 ## Usage
 
-    Run the application:
+- Run the application
+- Enter the Wikipedia username you want to analyze (case sensitive)
+- Select the Wikipedia language (English or Persian)
+- Set the date range for analysis (optional)
+- Choose an output directory (defaults to Desktop)
+- Click "Find Contributions" to start the analysis
+- Results will be saved in a text file in the format:
+	[En/Fa]-[Username]-Titles_[Date].txt
 
-    Enter the Wikipedia username you want to analyze (case sensitive)
-    Select the Wikipedia language (English or Persian)
-    Set the date range for analysis (optional)
-    Choose an output directory (defaults to Desktop)
-    Click "Find Contributions" to start the analysis
-    Results will be saved in a text file in the format:
-    [En/Fa]-[Username]-Titles_[Date].txt
-	It will be generated as a clean text file containing:
-    Only article titles (no maintenance pages or user pages)
-    One title per line
-    Sorted chronologically (oldest to newest)
-    Excludes duplicates and similar non-article edits
+It will be generated as a clean text file containing:
+- Only article titles (no maintenance pages or user pages)
+- One title per line
+- Sorted chronologically (oldest to newest)
+- Excludes duplicates and similar non-article edits
 
 
 ## Technical Details
 
-    Fetches user contributions from Wikipedia API
-    Parses the HTML response to extract page titles
-    Filters out non-article pages using exclusion patterns
-    Sorts results chronologically
-    Saves to a text file in the specified directory
+- Fetches user contributions from Wikipedia API
+- Parses the HTML response to extract page titles
+- Filters out non-article pages using exclusion patterns
+- Sorts results chronologically
+- Saves to a text file in the specified directory
+
 
 ## Exclusion Patterns
 
 It automatically filters out:
-
-    User talk pages
-    Wikipedia maintenance pages
-    File uploads and media
-    Templates and categories
-    Special Wikipedia pages
-    Other non-article content
+- User talk pages
+- Wikipedia maintenance pages
+- File uploads and media
+- Templates and categories
+- Special Wikipedia pages
+- Other non-article content
 
 
 ## Common Issues
 
-    User not found: Ensure the username is correct and case-sensitive
-    No results: The user may not have made any article edits in the selected date range
-    Connection errors: Check your internet connection and firewall settings
+- User not found: Ensure the username is correct and case-sensitive
+- No results: The user may not have made any article edits in the selected date range
+- Connection errors: Check your internet connection and firewall settings
 
 ## Logging
 
 The application maintains a detailed activity log in the GUI that shows:
-
-    Progress of the analysis
-    Any errors encountered
-    Summary of results
+- Progress of the analysis
+- Any errors encountered
+- Summary of results
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for:
-
-    Bug fixes
-    New features
-    Additional language support
-    Documentation improvements
+- Bug fixes
+- New features
+- Additional language support
+- Documentation improvements
 
 
 ## License
 
-This software is released as freeware.
-Feel free to use, share, and distribute it for personal or commercial use.
 © 2025 Avarwand
+This software is released as freeware.<br>
+Feel free to use, share, and distribute it for personal or commercial use.<br>
+_Developed by Payam Avarwand,	06.06.2025_
 
 
 ## Contact
 
-_Developed by Payam Avarwand,	01.06.2025_ | payam_avar@yahoo.com
+payam_avar@yahoo.com
